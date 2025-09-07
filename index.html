@@ -2,6 +2,10 @@
 <html>
     <head>
         <title>HTML crash course</title>
+        <meta charset="utf-8" >
+        <meta name="author" content="ahchunh">
+        <meta name="descriptioin" content="This page is a practice for html.">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
     </head>
     <body>
         <h1>Heading 1</h1>
@@ -18,5 +22,87 @@
             <p>Lorem ipsum dolor, <delete>sit amet consectetur</delete> adipisicing elit.
             <br>
             Dignissimos <sub>quas corporis</sub> repellat <sup>pariatur maiores</sup> animi voluptate fugiat voluptatum suscipit. Pariatur autem vel alias earum amet blanditiis ab sed optio nam.</p>
+            <div>Block 1</div>
+            <div>Block 2</div>
+            <span>Inline 1</span>
+            <span>Inline 2</span>
+
+            <ul>
+                <li>Bread</li>
+                <li>Milk</li>
+                <li>Eggs</li>
+            </ul>
+
+            <ol>
+                <li>Bread</li>
+                <li>Milk</li>
+                <li>Eggs</li>
+            </ol>
+
+            <dl>
+                <dt>Ice cream</dt>
+                <dd>Soft sweet frozen fruit</dd>
+                <dt>UST</dt>
+                <dd>University of Stress and Tension</dd>
+            </dl>
+
+            <img src="black pudding.jpeg" width="200" height="200" alt="Black pudding">
+            <a href="https://www.youtube.com/watch?v=N8YMl4Ezp4g&list=PLC3y8-rFHvwhuX4qGvFx-wPy_MEi6Jdp7">HTML tutorial</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Heading 1</th>
+                        <th>Heading 2</th>
+                        <th>Heading 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                    </tr>
+                    <tr>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                    </tr>
+                    <tr>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form>
+                <label for="username">Username</label><br>
+                <input type="text" id="username"><br>
+
+                <label for="about">About you</label><br>
+                <input type="text" id="about"><textarea></textarea><br>
+
+                <label for="country">Country</label><br>
+                <select id="country">
+                    <option value="india">India</option>
+                    <option value="singapore">Singapore</option>
+                </select><br>
+
+                <label>Job Type</label><br>
+                <input type="radio" name="jobtype" value="parttime" id="parttime">
+                <label for="parttime">Part time</label>
+                <br>
+                <input type="radio" name="jobtype" value="fulltime" id="fulltime">
+                <label for="fulltime">Full time</label>
+                <br>
+                <label>Food</label><br>
+                <input type="checkbox" name="food" value="milk" id="milk">
+                <label for="milk">Milk</label>
+                <br>
+                <input type="checkbox" name="food" value="egg" id="egg">
+                <label for="egg">Egg</label>
+                <br>
+                <button>Submit</button>
+            </form>
     </body>
 </html>
