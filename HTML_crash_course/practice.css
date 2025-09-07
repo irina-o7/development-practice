@@ -1,0 +1,24 @@
+h1 {
+    color: #198964;
+}
+
+.error{
+    color: rgba(5, 128, 238,0.5)
+    ;
+}
+
+.success{
+    color: red;
+}
+
+#selector{
+    color: maroon;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
